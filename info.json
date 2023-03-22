@@ -1,0 +1,10 @@
+{
+	"author" : "Danbee Lee",
+	"binding" : "plug-in",
+	"copyright" : "All right reserved",
+	"description" : "Mastering",
+	"entry" : "main.py",
+	"menu" : "ui/menu.json",
+	"startup" : "boot",
+	"version" : "v0.1.0"
+}

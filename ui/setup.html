@@ -1,0 +1,51 @@
+<!DOCTYPE html:5>
+<!--
+	@author: Jane Doe, BlueOcean Robot & Automation, Ltd.
+	@brief: Mastering - setup
+	@create: 2021-12-06
+-->
+<html>
+ 
+<head>
+   <title>Mastering- setup</title>
+   <meta http-equiv=Content-Type content='text/html; charset=utf-8'>
+	<link rel='stylesheet' href='../../_common/css/style.css' type=text/css rel=stylesheet>
+	<script src='../../_common/js/jquery-3.6.0.min.js'></script>
+	<script src='../../_common/js/Parser.js'></script>
+	<script src='../../_common/js/sigcode.js'></script>
+	<script src='../../_common/js/dst_setup.js'></script>
+	<script src='./setup.js'></script>
+	<script> 
+		$(document).ready(init);
+	</script>
+</head>
+ 
+<body class='no-scroll'>
+   <div>
+      <div id='contents'>
+			<span class='col0' name='ip_addr'>IP address</span>
+			<input class='col1' type='text' name='ip_addr' id='ip_addr_0' size='3'/>
+			.
+			<input class='col1' type='text' name='ip_addr' id='ip_addr_1' size='3'/>
+			.
+			<input class='col1' type='text' name='ip_addr' id='ip_addr_2' size='3'/>
+			.
+			<input class='col1' type='text' name='ip_addr' id='ip_addr_3' size='3'/>
+			<br>
+			<span class='col0' name='port'>Port#</span>
+			<input class='col1' type='text' id='port' size='5'/>
+			<br>
+			<span class='col0' name='joint'>Joint#</span>
+			<input class='col1' type='text' id='joint' size='5'/>
+			<br>
+			<span class='col0' name='cor_ofs'>Corrected Encoder Offset</span>
+			<input class='col1' type='text' id='cor_ofs' size='5' disabled/>
+			<br>
+            <span class='col0' name='play_status'>Mastering Status</span>
+            <input class='col1' type='text' id='play_status' size='25' disabled/>
+            <br>
+		</div>
+		<div id='guidebar'></div>
+   </div>
+</body>
+</html>

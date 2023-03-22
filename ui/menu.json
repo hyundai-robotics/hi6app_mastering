@@ -1,0 +1,14 @@
+[
+	{
+		 "path": "system/appl/",
+		 "id": "mastering",
+		 "icon": "mastering/ui/lm_mastering.png",
+		 "label": "mastering",
+		 "url": "mastering/ui/setup.html"
+	},
+    { 
+        "path": "system/robot/encoder_reset/",
+        "id": "mastering",
+        "url": "mastering/ui/ubar.html"
+    }
+]
